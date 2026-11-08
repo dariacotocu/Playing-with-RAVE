@@ -4,9 +4,6 @@
 
 A live performance system that combines electric guitar with two [RAVE](https://github.com/acids-ircam/RAVE) models. How loudly the guitar is played sets the balance between an orchestral model (Sol Ordinario) and a percussion model, and every 20 seconds both models jump to a random point in their latent space.
 
-<p align="center">
-  <img src="images/performance.jpg" alt="Daria Cotocu performing Playing with RAVE" width="640">
-</p>
 
 ## Demo
 
