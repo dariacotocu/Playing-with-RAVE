@@ -17,14 +17,14 @@ A live performance system that combines electric guitar with two [RAVE](https://
 - Accepted for presentation at the **AI in Art Practices and Research Conference 2026**: *"Playing with RAVE: Guitar Dynamics as an Interface for Neural Audio Collaboration"*. A research paper is to follow.
 
 <p align="center">
-  <img src="images/nime-workshop.jpg" alt="Demonstrating the system at the NIME 2026 workshop" width="480"><br>
+  <img src="nime-workshop.jpg" alt="Demonstrating the system at the NIME 2026 workshop" width="480"><br>
   <em>At the NIME 2026 workshop.</em>
 </p>
 
 ## How it works
 
 <p align="center">
-  <img src="images/signal-flow.png" alt="Signal flow: guitar to audio interface, amplitude analysis, three states, two RAVE models, speaker" width="100%">
+  <img src="signal-flow.png" alt="Signal flow: guitar to audio interface, amplitude analysis, three states, two RAVE models, speaker" width="100%">
 </p>
 
 The guitar's amplitude is analysed in real time and mapped across three states:
@@ -41,9 +41,6 @@ Every 20 seconds both models jump to a new random point in their latent space. T
 
 RAVE (Realtime Audio Variational autoEncoder) is a neural audio model that runs fast enough for live use. Its compact latent space can be explored while the performer plays, which makes it a natural fit for a performance instrument. In this project the guitar acts as the controller and the RAVE models act as a responsive, slightly unpredictable collaborator.
 
-## Setup
-
-<!-- Paste your existing setup instructions here (requirements, models, how to run). -->
 
 ## References
 
